@@ -68,7 +68,7 @@ class UserController {
            <td><img src="${values.photo}" alt="User Image" class="img-circle img-sm"></td>
            <td>${values.name}</td>
            <td>${values.email}</td>
-           <td>${(values.admin) ? 'Sim' : 'Não'}</td>
+           <td>${(values.admin) ? 'Sim2' : 'Não'}</td>
            <td>${Utils.dateFormat(values.register)}</td>
            <td>
              <button type="button" class="btn btn-primary btn-edit btn-xs btn-flat">Editar</button>
